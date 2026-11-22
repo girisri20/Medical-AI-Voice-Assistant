@@ -1,0 +1,13 @@
+# Medical AI Voice Assistant — pinned dependencies
+# Works natively on Python 3.11 (.venv311) where onnxruntime is available.
+# On Python 3.15, onnxruntime has no wheel — see install.bat notes.
+
+streamlit==1.67.0
+faster-whisper==1.2.1
+soundfile==0.14.0
+numpy==2.5.5
+ctranslate2==4.9.0
+huggingface-hub==2.4.0
+tokenizers==0.23.3
+tqdm==4.70.1
+av==19.0.2
